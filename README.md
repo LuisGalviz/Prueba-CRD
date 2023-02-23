@@ -24,14 +24,14 @@ Para facilitar la prueba técnica, se puede utilizar una librería o framework d
 Se puede utilizar un servidor API preexistente o simularlo utilizando herramientas como JSONPlaceholder.  
 
 Se pueden agregar funcionalidades adicionales a la aplicación, como validación de campos, filtros de búsqueda o paginación de la lista de tareas.  
-
+  
 Para obtener la lista de tareas existentes (método GET):  
 •	Endpoint: https://jsonplaceholder.typicode.com/todos  
 •	Respuesta esperada: un arreglo JSON que contenga la lista de tareas existentes. Cada tarea debe tener los siguientes campos:  
 id: un número entero que identifica a la tarea.  
 title: una cadena de texto con el nombre de la tarea.  
 completed: un valor booleano que indica si la tarea está completada o no.  
-
+  
 Para agregar una nueva tarea (método POST):  
 •	Endpoint: https://jsonplaceholder.typicode.com/todos  
 •	Datos a enviar en el cuerpo de la petición: un objeto JSON que contenga los siguientes campos:  
@@ -41,6 +41,7 @@ Respuesta esperada: un objeto JSON que contenga los siguientes campos:
 id: un número entero que identifica a la nueva tarea.  
 title: una cadena de texto con el nombre de la tarea.  
 completed: un valor booleano que indica si la tarea está completada o no.  
+  
 Para eliminar una tarea existente (método DELETE):  
 •	Endpoint: https://jsonplaceholder.typicode.com/todos/{id} (reemplaza {id} con el id de la tarea que se desea eliminar)  
 •	Respuesta esperada: un código de respuesta 200 si la tarea se eliminó exitosamente.  
