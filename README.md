@@ -7,7 +7,7 @@ Requisitos
 Los estudiantes deben tener conocimientos básicos de HTML, CSS y JavaScript, así como familiaridad con el manejo de endpoints y la realización de peticiones a un servidor API.  
 
 Pasos para completar la prueba técnica  
-Crear una página HTML que incluya un formulario para agregar nuevas tareas. El formulario debe tener campos para ingresar el nombre de la tarea y la fecha de vencimiento.  
+Crear una página HTML que incluya un formulario para agregar nuevas tareas. El formulario debe tener campos para ingresar el nombre de la tarea y la fecha de vencimiento. Presentar la informacion en una tabla y el boton de eliminar tenga al menos un efecto como ej. Button Hover. 
 
 1.	Utilizar JavaScript para realizar una petición GET a un endpoint del servidor API y obtener la lista de tareas existentes.  
 
