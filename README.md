@@ -36,7 +36,9 @@ Para agregar una nueva tarea (método POST):
 •	Endpoint: https://jsonplaceholder.typicode.com/todos  
 •	Datos a enviar en el cuerpo de la petición: un objeto JSON que contenga los siguientes campos:  
 title: una cadena de texto con el nombre de la tarea.  
-completed: un valor booleano que indica si la tarea está completada o no.  
+completed: un valor booleano que indica si la tarea está completada o no.
+date: optional.
+
 Respuesta esperada: un objeto JSON que contenga los siguientes campos:  
 id: un número entero que identifica a la nueva tarea.  
 title: una cadena de texto con el nombre de la tarea.  
